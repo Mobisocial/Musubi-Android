@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/content_frame"
+   >
+
+  <mobisocial.musubi.ui.widget.CompositeImageView android:id="@+id/image"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:adjustViewBounds="true"
+    android:scaleType="centerCrop"
+    />
+
+  <RelativeLayout android:id="@+id/content"
+      android:layout_toRightOf="@+id/image"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:paddingRight="2dp"
+      android:paddingLeft="2dp">
+
+  <TextView
+      android:id="@+id/time_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:textColor="#999999"
+      android:text="1:23"
+      />
+  <TextView
+	 android:id="@+id/feed_label"
+	 android:layout_toLeftOf="@id/time_text"
+	 android:layout_alignParentLeft="true"
+	 android:layout_width="fill_parent"
+	 android:scrollHorizontally="true"
+	 android:layout_height="wrap_content"
+	 android:text="Chat with Friends"
+	 android:maxLines="1"
+	 android:ellipsize="end"
+	 android:textStyle="bold"
+      />
+  <TextView
+      android:id="@+id/unread_count"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_below="@id/time_text"
+      android:textColor="#ffff6666"
+      android:textStyle="bold"
+  />
+  <TextView
+      android:id="@+id/text"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_toLeftOf="@id/unread_count"
+      android:layout_below="@id/feed_label"
+      android:layout_alignParentLeft="true"
+      android:maxLines="2"
+      android:ellipsize="end"
+      android:textStyle="normal"
+  />
+  </RelativeLayout>
+</RelativeLayout>

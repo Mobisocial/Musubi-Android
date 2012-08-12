@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    >
+
+        <RelativeLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+        <Button android:id="@+id/go" 
+            android:text="Go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+        <ImageButton android:id="@+id/qr"
+            android:src="@drawable/qr"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:layout_alignBottom="@id/go"
+            android:layout_alignTop="@id/go"
+            android:layout_alignParentLeft="true" />
+        <EditText android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Group passphrase..."
+            android:layout_toLeftOf="@id/go"
+            android:layout_toRightOf="@id/qr"
+            android:singleLine="true" />
+
+    <CheckBox android:id="@+id/social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:text="Go Social"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+    <ListView  
+        android:id="@android:id/list"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_above="@id/social"
+        />
+</RelativeLayout>
+</LinearLayout>

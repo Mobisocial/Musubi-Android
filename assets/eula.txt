@@ -1,0 +1,86 @@
+﻿END USER LICENSE AGREEMENT
+ 
+ 
+This End User License Agreement (this “Agreement”) is a legal agreement between you and Stanford University (“Stanford MobiSocial,” “we,” “us” or “our”) regarding Stanford MobiSocial Computing Lab’s Android application (“Musubi” or  the “App”) which you have chosen to download from the Google Play website located at https://play.google.com/store?hl=en.  The procedures for modifying or changing this Agreement in the future are discussed in Section 9.
+ 
+1.         Your Use of the App.
+ 
+You may use Musubi to, among other things, create a social network with your friends and colleagues on your Android device (“Mobile Device”) (collectively, the “Services”).  Once you download Musubi onto your Mobile Device and accept this Agreement, you may use the App and the Services.  
+ 
+2.         Your Affirmative Representations.
+ 
+By downloading or using Musubi, you represent and warrant that:  
+ 
+(a)        your use of Musubi and the Services does not violate any applicable law or regulation; 
+       (b)        you have the right to and are able to enter into this Agreement;
+(c)        you will not impersonate any other person or entity or permit third parties to use your copy of Musubi;
+(d)        you will not use Musubi or the Services to violate our or any other person’s rights including without limitation privacy rights, publicity rights, intellectual property rights (including without limitation copyrights) or contract rights; and
+(e)        you will not use Musubi or the Services to distribute content that:  (i) is defamatory, damaging, disruptive, unlawful, inappropriate, offensive, inaccurate, pornographic, vulgar, indecent, profane, hateful, racially or ethnically offensive, obscene, lewd, lascivious, threatening, excessively violent, harassing, or otherwise objectionable; (ii) incites, encourages or threatens immediate physical harm against another, including but not limited to, content that promotes racism, bigotry, sexism, religious intolerance or harm against any group or individual; or (iii) solicits personal information from anyone under 13 or exploits anyone in a sexual or violent manner.
+ 
+3.         License Grant. 
+ 
+We grant you a limited, terminable, non-sublicensable, non-transferable, non-exclusive license to install and use Musubi on any Mobile Device that you own or control solely for your personal use.  This Agreement will also govern any software upgrades provided by us that replace or supplement the original App, unless such upgrades are accompanied by a separate license, in which case the terms of that license will govern. 
+ 
+4.         License Restrictions and Usage Rules.
+ 
+You may not use Musubi on any Mobile Device that you do not own or control, and you may not distribute or make Musubi available over a network where it could be used by multiple devices at the same time.  You may not modify, copy, publish, rent, lease, lend, sell, redistribute, transfer or sublicense Musubi or otherwise commercialize Musubi or any information or software associated with Musubi.  You may not use Musubi on a service bureau basis.  You may not copy, decompile, reverse engineer, disassemble, attempt to derive the source code of, modify or create derivative works of the App, any updates or any part thereof (except to the extent any foregoing restriction is permitted by applicable law or to the extent as may be permitted by the licensing terms governing use of any open sourced components included with the App). 
+ 
+5.          Open Source Software.
+ 
+Musubi may contain open source software components, each of which has its own copyright notice requirements and own applicable license conditions. These components are subject to the terms of third party open source licenses, and not the terms of this Agreement. A list of these components and the licenses that cover them can be found at: http://mobisocial.stanford.edu/musubi/foss.txt.  If any such license requires us to deliver the source code for such component to you, we will do so upon request at a nominal fee.
+ 
+6.         Your Assignment to Us.
+ 
+If you submit any comments or suggestions to us by means of Musubi, you hereby assign to us all right, title and interest in and to such comments or suggestions.  
+ 
+7.         Termination and Survival. 
+ 
+If you breach this Agreement, we may immediately terminate this Agreement, but all provisions of this Agreement except Section 3 (“License Grant”) will survive termination and continue in effect.  Upon termination, you must destroy all copies of Musubi.
+ 
+8.          Proprietary Rights. 
+ 
+We reserve all intellectual property rights in Musubi, except for the rights expressly granted in this Agreement.  You may not remove or alter any trademark, logo, copyright or other proprietary notice in or on the App.  This license does not grant you any right to use the trademarks, service marks or logos of Stanford MobiSocial or its licensors.
+ 
+9.         Modification of this Agreement. 
+ 
+Because of changes in technology and the growth and development of our business, or for other business reasons, we may need to modify this Agreement from time to time.  If we modify the Agreement, we will post a notice on http://mobisocial.stanford.edu/musubi/eula.html and display the new agreement on your Mobile Device screen the next time you open Musubi.  You must click to accept the revised agreement before you may continue to use Musubi.   You should regularly review this Agreement to ensure that you are informed of any changes. 
+ 
+10.          Disclaimer of Warranty. 
+ 
+MUSUBI AND THE SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE” WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND.  TO THE EXTENT PERMITTED BY LAW, STANFORD MOBISOCIAL AND OUR DISTRIBUTORS AND LICENSORS HEREBY DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION, WARRANTIES THAT MUSUBI AND THE SERVICES ARE FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE, ACCURATE AND NON-INFRINGING.  YOU BEAR THE ENTIRE RISK AS TO SELECTING MUSUBI AND THE SERVICES FOR YOUR PURPOSES.  STANFORD MOBISOCIAL AND  ITS  DISTRIBUTORS AND LICENSORS DO NOT WARRANT AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE APP OR SERVICES, THAT THE FUNCTIONS CONTAINED IN, OR SERVICES PERFORMED OR PROVIDED BY, THE APP WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE APP OR SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE APP OR SERVICES WILL BE CORRECTED.  NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY US SHALL CREATE A WARRANTY.  IF THE APP IS DEFECTIVE, YOU ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.  THIS LIMITATION WILL APPLY NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY REMEDY. 
+ 
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF IMPLIED WARRANTIES.  IF YOU RESIDE IN ONE OF THESE JURISDICTIONS, THIS DISCLAIMER MAY NOT APPLY TO YOU.
+ 
+11.       Limitation of Liability. 
+ 
+EXCEPT AS REQUIRED BY LAW, STANFORD MOBISOCIAL AND ITS DISTRIBUTORS, DIRECTORS, LICENSORS, CONTRIBUTORS AND AGENTS (COLLECTIVELY, THE “STANFORD MOBISOCIAL GROUP”) WILL NOT BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES ARISING OUT OF OR IN ANY WAY RELATING TO THIS AGREEMENT OR THE USE OF OR INABILITY TO USE THE APP OR SERVICES, INCLUDING WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, LOST PROFITS, LOSS OF DATA, AND MOBILE DEVICE FAILURE OR MALFUNCTION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF THE THEORY (CONTRACT, TORT OR OTHERWISE) UPON WHICH SUCH CLAIM IS BASED.  OUR COLLECTIVE LIABILITY UNDER THIS AGREEMENT WILL NOT EXCEED $50.
+ 
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL, CONSEQUENTIAL OR SPECIAL DAMAGES.  IF YOU RESIDE IN ONE OF THESE JURISDICTIONS,  THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.
+ 
+12.       Export Controls. 
+ 
+You may not use or otherwise export or re-export the App except as authorized by United States law and the laws of the jurisdiction in which the App was obtained.  In particular, but without limitation, you may not export or re-export the App:  (a) into any United States embargoed countries; or (b) to anyone on the United States Treasury Department’s list of Specially Designated Nationals or the United States Department of Commerce Denied Person’s List or Entity List.  By using the App, you represent and warrant that:  (i) you are not located in a country that is subject to a United States government embargo or has been designated by the United States government as a “terrorist supporting” country; and (ii) you are not listed on any United States government list of prohibited or restricted parties.
+ 
+13.       U.S. Government End-Users. 
+ 
+The App and any related documentation are “Commercial Items,” as that term is defined at 48 C.F.R. 2.101, consisting of “Commercial Computer Software” and “Commercial Computer Software Documentation,” as such terms are used in 48 C.F.R. 12.212 or 48 C.F.R. 227.7202, as applicable.  Consistent with 48 C.F.R. 12.212 or 48 C.F.R. 227-7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. Government end users:  (a) only as Commercial Items; and (b) with only those rights as are granted to all other end users pursuant to the terms and conditions in this Agreement.  Unpublished rights are reserved under the copyright laws of the United States.
+ 
+145.       Injunctive Relief.
+ 
+We will have the right to seek injunctive relief to enforce this Agreement or to stop or prevent an infringement of proprietary or other third-party rights.
+ 
+15.       Choice of Law, Jurisdiction and Venue.
+ 
+You and we agree that any disputes between us shall be resolved under the substantive law of the State of California (exclusive of its choice of law provisions).  The Convention for the International Sale of Goods Shall not apply.  You and we agree all disputes between us will be subject to the exclusive jurisdiction of the state and federal courts located in Santa Clara County, California.
+  
+16.       Assignment. 
+ 
+You may not assign your rights under this Agreement to any third party; we may assign your rights under this Agreement without condition.  This Agreement will be binding upon and will inure to the benefit of the parties permitted successors and/or assignees. 
+ 
+17.       Miscellaneous. 
+ 
+This Agreement constitutes the entire agreement between you and us regarding the use of Musubi and supersedes any prior or contemporaneous understandings and agreements between you and us related to its subject matter.  The section titles in this Agreement are for convenience only and have no legal or contractual effect.  Our failure to exercise or enforce any right or provision of this Agreement shall not operate as a waiver of such right or provision.  The parties agree that each provision of this Agreement is intended to be construed to be enforceable to the fullest extent possible.  If any provision or part of a provision of this Agreement is held to be unlawful, void, or unenforceable, that provision or part of the provision shall be deemed severable from this Agreement and not affect the validity and enforceability of any remaining provisions.
+ 
+18.       Contact Information.
+ 
+If you have any comments or questions, please contact us at:   Stanford University MobiSocial Computing Laboratory, Gates Building, Room 408, Stanford, CA 94305; Fax:  650-725-6949; Email: musubi-feedback@lists.stanford.edu.

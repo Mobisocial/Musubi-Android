@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- <item android:id="@+id/menu_nearby"
+          android:title="@string/title_nearby"
+          android:icon="@android:drawable/ic_menu_compass"
+          android:showAsAction="always" />
+    -->
+    <item android:id="@+id/menu_relationships"
+          android:title="@string/title_relationships"
+          android:icon="@drawable/ic_menu_allfriends"
+          android:showAsAction="always" />
+    <!-- <item android:id="@+id/menu_profile"
+          android:title="@string/title_profile"
+          android:icon="@drawable/ic_menu_my_profile"
+          android:showAsAction="always" />
+    -->
+    <item android:id="@+id/menu_settings"
+          android:title="@string/title_settings"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:showAsAction="always" />
+</menu>

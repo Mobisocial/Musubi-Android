@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Spinner 
+        android:id="@+id/view_profile_presence"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:padding="5dip">
+
+            <ImageView
+                android:id="@+id/view_profile_thumbnail"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_set_profile_picture"
+                android:background="@android:drawable/picture_frame"/>
+            
+            <TextView
+                android:id="@+id/view_profile_name"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp" 
+                />
+            <TextView
+                android:id="@+id/view_edit_profile_name"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#0000FF"
+                android:text="[change name]" 
+                android:clickable="true"
+                />
+            <TextView
+                android:id="@+id/view_profile_principal"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp" 
+                />
+            <TextView
+                android:id="@+id/invite_over_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#0000ff"
+                android:text="[Invite]"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/add_to_friends"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#0000ff"
+                android:text="[Add to Friends]"/>
+            <TextView
+                android:id="@+id/add_to_addressbook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#0000ff"
+                android:text="[Add to Address Book]"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

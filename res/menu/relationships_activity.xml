@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- <item android:id="@+id/menu_nearby"
+          android:title="@string/title_nearby"
+          android:icon="@android:drawable/ic_menu_compass"
+          android:showAsAction="always" />
+    -->
+    <item android:id="@+id/menu_add_contact"
+          android:title="Add a contact"
+          android:icon="@drawable/ic_add_contact_holo_light"
+          android:showAsAction="always" />
+</menu>

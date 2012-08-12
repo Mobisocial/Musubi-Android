@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+      android:text="Login"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/login_email_prompt"
+      />
+    <EditText
+      android:scrollHorizontally="true"
+      android:inputType="textEmailAddress"
+      android:id="@+id/login_email"
+      android:maxLines="1"
+      android:imeOptions="actionNext|flagNoExtractUi"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      />
+    <TextView
+      android:text="Password"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/login_password_prompt"
+      />
+    <EditText
+      android:scrollHorizontally="true"
+      android:inputType="textPassword"
+      android:id="@+id/login_password"
+      android:maxLines="1"
+      android:imeOptions="actionDone|flagNoExtractUi"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      />
+	<Button 
+	  android:text="Login to Dropbox" 
+	  android:id="@+id/login_submit" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+	  />
+	<TextView  
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+      android:id="@+id/text" 
+	  />
+</LinearLayout>
+

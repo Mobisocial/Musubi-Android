@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musubi</string>
+    <string name="pick_feed">Pick a Feed</string>
+    <string name="app_store_name">App Corral</string>
+    <string name="profile">Profile</string>
+    <string name="start">Running...</string>
+    <string name="stopping">Shutting down...</string>
+    <string name="active">Is Active.</string>
+    <string name="new_shared_contact">Shared Contact</string>
+    <string name="main_no_items">No status updates</string>
+    <string name="new_group">Add Group</string>
+    <string name="add_people">Add People</string>
+    <string name="add">Add</string>
+    <string name="request">Request!</string>
+    <string name="upload">Upload Photo</string>
+    <string name="delete">Delete Post</string>
+    <string name="introduced">Added these people:</string>
+    <string name="join_email_body">Join me on Musubi, an app for sharing!
+	                    To get started, install the Musubi app on your Android phone from the Play Store:</string>
+    <string name="join_email_subtext">Once you have Musubi, click here connect with me:</string>
+
+    <string name="description_logo">Musubi</string>
+    <string name="create_feed">Create Feed</string>
+    <string name="description_about">About</string>
+    <string name="description_home">Home</string>
+    <string name="description_search">Search</string>
+    <string name="title_refresh">Refresh</string>
+    <string name="title_pin">Check-In</string>
+    <string name="description_broadcast">Broadcast</string>
+    <string name="title_about">About</string>
+    <string name="title_home">Home</string>
+    <string name="title_add">Add</string>
+    <string name="title_new">New...</string>
+    <string name="title_search">Search</string>
+    <string name="title_latest">Latest</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_friend">Friend</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_groups">Groups</string>
+    <string name="title_group">Group</string>
+    <string name="title_relationships">Relationships</string>
+    <string name="title_new_group">New Group</string>
+    <string name="title_nearby">Nearby</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_members_list">Group Members</string>
+    <string name="title_accept_friend">Add Contact</string>
+    <string name="title_presence_list">Share...</string>
+
+    <string name="default_intro">This is the default content view for an activity. Be sure to change your activity\'s onCreate method. Use setContentView on a custom layout.</string>
+
+    <string name="about_intro">This application was developed by the Mobisocial Lab at Stanford University (http://mobisocial.stanford.edu). \n\nIcons from www.freeiconsweb.com/</string>
+    <string name="search_intro">Content for the Search page goes here.</string>
+    
+    <!--  ZXing -->
+    <string name="menu_share">Share</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="msg_encode_barcode_failed">Could not generate the requested barcode.</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="button_ok">OK</string>
+    <string name="contents_text">Plain text</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="scan_here">Scan Here</string>
+    <string name="shared_from_musubi">Picture from Musubi</string>
+    <string name="shared_text_from_musubi">Message from Musubi</string>
+    <string name="shared_from_musubi_blurb">Check out this picture from Musubi, an app for sharing! Get it for Android: http://play.google.com/store/apps/details?id=mobisocial.musubi</string>
+    <string name="link_accounts">Link Accounts</string>
+    <string name="next">Next</string>
+    <string name="finding_friends">Finding friends&#8230;</string>
+    <string name="skip_friend_import">Skip friend import?</string>
+    <string name="really_skip_friend_import">You have not selected any accounts for finding friends Are you sure you want to skip importing friends?</string>
+    <string name="apps_with_friends">Let my friends see what apps I install</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="musubi_ready">You\'re ready to use Musubi.</string>
+    <string name="all_done">All done!</string>
+    <string name="facebook_failed">Facebook Error</string>
+    <string name="facebook_retry">Failed to connect to Facebook. Would you like to retry?</string>
+    <string name="google_failed">Google Error</string>
+    <string name="google_retry">Failed to connect to Google account. Would you like to retry?</string>
+    <string name="go_on">Go on</string>
+    <string name="go">Go</string>
+    <string name="send">Send</string>
+    <string name="retry">Retry</string>
+    <string name="finish">Finish</string>
+    <string name="connecting_to_google">Connecting to Google...</string>
+    <string name="invite_friends">Invite</string>
+    <string name="apps">Apps</string>
+    <string name="people">People</string>
+    <string name="presence">Presence</string>
+    <string name="done_importing">Done Importing</string>
+    <string name="ok">Okay</string>
+    <string name="title_loading">Loading...</string>
+    <string name="account_type">edu.stanford.mobisocial</string>
+    <string name="account_name">Me</string>
+    <string name="eula_dismiss">OK</string>
+    <string name="eula_checkbox">I have read and understood this EULA and agree to be bound by it.  I also agree to the terms of the Privacy Policy.</string>
+    <string name="eula_accept">Accept</string>
+    <string name="eula_reject">Quit</string>
+    <string name="eula_email">Email to Me</string>
+    <string name="eula_title">EULA</string>
+    <string name="eula_loading">Loading EULA..</string>
+    <string name="stat_ok">OK</string>
+    <string name="delete_feed">Delete Feed?</string>
+    <string name="delete_feed_message">All messages and pictures in this feed will be deleted permanently from your device.  They will not be deleted from other devices. You may delete a specific item from all device within the feed by long pressing it and choosing delete.</string>
+    <string name="qr_directions">Give your contact info to a friend by letting them scan this QR code.</string>
+    <string name="qr_scan_friend">Scan a Friend</string>
+    <string name="title_claim_key">Verify Account</string>
+    <string name="country_code">+</string>
+    
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- this one is magic, be careful changing it will bite you -->
+    <LinearLayout android:id="@+id/loading"
+        android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center">
+    	<ProgressBar android:indeterminate="true"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center" />
+    </LinearLayout>
+    <ScrollView 
+        android:id="@+id/eula_scroll"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="2000dip"
+        android:layout_weight="1"
+        >
+    <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip" 
+            />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+  		    <TextView 
+		        android:id="@+id/eula_body"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        />
+            <TextView 
+		        android:id="@+id/priv_body"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        />
+        </FrameLayout>
+    </LinearLayout>
+    </TabHost>
+    </ScrollView>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/eula_accept_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+		<CheckBox 
+	        android:id="@+id/eula_checkbox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+            android:gravity="center_vertical"
+	        />
+	    <TextView 
+	        android:id="@+id/eula_checkbox_message"
+	        android:text="@+string/eula_checkbox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+            android:gravity="center_vertical"
+	        />
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+	    android:orientation="horizontal"
+	    >
+        <Button
+            android:id="@+id/eula_dismiss" 
+            android:text="@+string/eula_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+	    <Button
+	        android:id="@+id/eula_accept" 
+            android:text="@+string/eula_accept"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        />
+        <Button
+            android:id="@+id/eula_email" 
+            android:text="@+string/eula_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/eula_reject" 
+            android:text="@+string/eula_reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</LinearLayout>

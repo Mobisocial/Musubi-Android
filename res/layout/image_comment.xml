@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/image_comment_layout_root"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/image_comment_title"
+        android:text="Post a new image..."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image_comment_title"
+        android:background="@android:drawable/picture_frame"/>
+    
+    
+    <RelativeLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/navbar">
+        <Button
+            android:id="@+id/image_comment_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Cancel" />
+        <Button
+            android:id="@+id/image_comment_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Edit" />
+        <Button
+            android:id="@+id/image_comment_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Send"/>
+    </RelativeLayout>
+    
+    <EditText
+        android:id="@+id/image_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="18sp"
+        android:hint="Add a caption..."
+        android:gravity="top"
+        android:layout_below="@id/image"
+        android:layout_above="@id/navbar"/>
+    
+</RelativeLayout>

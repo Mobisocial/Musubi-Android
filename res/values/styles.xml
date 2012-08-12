@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Animations" />
+
+	<!--  Full screen dialog -->
+	<style name="Dialog_Fullscreen">
+	    <item name="android:windowFullscreen">true</item>
+	    <item name="android:windowNoTitle">true</item>
+	</style>
+	
+    <!-- Base application theme is the default theme. -->
+    <style name="Theme" parent="android:Theme"></style>
+
+    <!-- Variation on the Light theme that turns off the title -->
+    <style name="Theme.D1t" parent="android:style/Theme.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.D1" parent="android:style/Theme.Light">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.D1dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/background_light</item>
+    </style>
+    <style name="Theme.D1dialognotitle" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:background">@android:color/background_light</item>
+    </style>
+    
+    <style name="Theme.D1tranlucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="HomeButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="HomeText">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/foreground1</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="TextBody">
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:textColor">@android:color/secondary_text_light</item>
+    </style>
+    
+    
+    <!--  Action Bar Compatibility by Sherlock-->
+    <style name="AppTheme" parent="Theme.Sherlock.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    
+    <style name="Animation_SlideFromTopHalfHeight">
+        <item name="android:windowEnterAnimation">@anim/slide_in_down_short_height</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up</item>
+    </style>
+     <style name="Animation_SlideFromTop">
+        <item name="android:windowEnterAnimation">@anim/slide_in_down</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up</item>
+    </style>
+</resources>

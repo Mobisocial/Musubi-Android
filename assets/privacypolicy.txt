@@ -1,0 +1,96 @@
+﻿PRIVACY POLICY
+ 
+This Privacy Policy is effective as of and was last updated on March 12, 2012.
+ 
+1.         General.
+ 
+This privacy policy (this “Privacy Policy”) is designed to inform you about the type of information that Stanford University’s MobiSocial Computing Lab (“we,” “us,” or “our”) may gather or collect from you in connection with your use of this app (“Musubi” or this “App”).  It also explains the conditions under which we use and disclose that information, and your rights in relation to that information.
+ 
+The procedures for modifying or changing this Privacy Policy in the future are discussed in Section 8 of this document. 
+ 
+2.         User Control and Uninstalling Musubi.
+ 
+You may control who you receive content from on Musubi by configuring Musubi’s settings to ignore messages from certain users.  To ignore messages from a particular user:  (1) click on the “Relationships” button located on the main screen of the App; (2) find the person you want to block by scrolling down the list of names and selecting the name of the person; (3) after you select the person’s name, a pop-up menu will appear, and you should select the “Ignore” option.
+ 
+You may uninstall Musubi at any time from your mobile device, and you may access and change user settings from the options/settings menu on your device at any time.  Uninstallation methods vary depending on your device.  To uninstall Musubi, please use the application manager provided with your device or consult your device manual.
+ 
+3.         Children.
+ 
+We do not knowingly collect personal information from children under 13.
+ 
+4.       Our Collection, Use and Disclosure of Personally–Identifying Information.
+ 
+“Personally–Identifying Information,” is information such as a name or email address that, without more, can be directly associated with a specific person or entity.  We will not disclose your Personally-Identifying Information to third parties unless we obtain your permission to do so at the time we collect it, except as set forth below:
+ 
+       A.         Collecting Personally-Identifying Information from and about App Users.
+        
+i.                    Registration and Other Information Provided to Us.
+ 
+When you register to use this App, you may be asked to disclose Personally–Identifying Information including without limitation your email address. You may also choose to submit Personally-Identifying Information to us when you send us a comment or note. 
+ 
+ii.                  Use of “Share Functionality” on Musubi.
+ 
+When you use the tools on Musubi to import your contacts from third party social networking sites (such as Facebook) to Musubi, you provide us with the Personally-Identifying Information associated with your social networking account, including without limitation: your name, email address, phone number, gender, birthday, current city, Internet Protocol address and profile photo URL.  You may also provide us with such Personally-Identifying Information about your friends.
+  
+       B.         Use of Personally-Identifying Information.
+ 
+We may use the Personally-Identifying Information that you submit to us for any purpose relating to the operation of Musubi and for our general business purposes.  For example, we may use Personally-Identifying Information:  (i) during the registration process to verify your identity the first time you sign in to use Musubi; (ii) to perform surveys as indicated in Section 4(C)(ii) below; and (iii) to send you marketing materials we think may be of interest to you as indicated in Section 4(C)(vii) below.
+ 
+Notwithstanding the foregoing, if you use the tools on Musubi to import your contacts from third party social networking sites (such as Facebook) to Musubi, you understand and accept that we copy your and your friends’ Personally-Identifying Information to our servers and use such Personally-Identifying Information to populate your address book on Musubi.  After we do so, we delete the Personally-Identifying Information we obtain about you and your friends from such social networking sites from our servers.  We do not use such Personally-Identifying Information for any purpose other than populating your Musubi address book when you request that we do so.
+ 
+C.         Disclosure of Personally-Identifying Information.
+ 
+We may disclose Personally-Identifying Information in the following circumstances:
+ 
+i.                    Notices of Violations of App EULA and Other Communications Directed to Us.
+ 
+By submitting correspondence to us (including communications about content stored on or transmitted through this App), you consent to have this communication forwarded to the person or entity that relate to your communications in order to facilitate a prompt resolution.  
+ 
+       ii.         Surveys.
+        
+From time to time, we may also ask you to participate in surveys for our general business and marketing purposes.  Any Personally-Identifying Information provided to us in connection with a survey will be used only in relation to that survey, and will be disclosed to third parties not bound by this Privacy Policy only in non-personally-identifying, aggregated form. 
+ 
+       iii.        Contests, Giveaways and other Promotions.
+        
+From time to time, we may offer you the opportunity to participate in contests, giveaways and other promotions.  Any information submitted in connection with promotions will be subject to the terms of the promotion, not this Privacy Policy.   You will be given the option to consent to the use of your Personally-Identifying Information at the time you sign up for the promotion.  You will not be required to participate in any promotion. 
+           
+iv.        Employees, Third-Party Processors and Third-Party Service Providers.
+ 
+We may disclose Personally-Identifying Information to our employees, contractors, affiliates, distributors, dealers, vendors and suppliers who process Personally-Identifying Information on our behalf, participate with us in the provision or operation of this App or provide you with services. 
+ 
+v.         By Law, to Protect Rights and to Comply with Our Policies.
+ 
+We disclose Personally-Identifying information if:  (1) required to do so by law, or in response to a subpoena or court order; (2) we believe in our sole discretion that disclosure is reasonably necessary to comply with the law, protect against fraud, to protect the property or other rights of us or other users, third parties or the public at large; or (3) we believe that you have abused the service or have otherwise violated applicable laws.
+ 
+                        vi.        Business Transfers.
+ 
+We may transfer all Personally-Identifying Information in our possession to a successor entity in the event of a merger, acquisition, bankruptcy or other sale of all or a portion of our assets.  Other than to the extent ordered by a court, the use and disclosure of all transferred Personally-Identifying Information will be subject to this Privacy Policy, or to a new privacy policy if you are given notice of that new privacy policy and you affirmatively opt-in to accept it.  Personally-Identifying Information submitted or collected after a transfer, however, may be subject to a new privacy policy adopted by the successor entity. 
+ 
+                        vii.       Marketing Communications.
+ 
+We may email you about products and services that we believe may be of interest to you.  If you wish to opt-out of receiving marketing materials from us, please follow the instructions at the bottom of each email for opting out.
+ 5.        Gathering, Use and Disclosure of Non-Personally-Identifying Information.
+ 
+ “Non–Personally–Identifying Information” is information that, without the aid of additional information, cannot be directly associated with a specific person or entity.  
+ 
+A.                 Gathering Non-Personally-Identifying Information.
+ 
+We may automatically, in connection with your use of the App software, collect certain Non-Personally-Identifying Information, including without limitation: (i) the number of times you share data on the App; (ii) the type of data you share (photos, videos, etc.); (iii) the amount of time you use the app; and (iv) compliance with the Musubi EULA http://mobisocial.stanford.edu/musubi/eula.html (collectively, "Usage Information"). By installing Musubi, you agree to permit us to collect your Usage Information, and not to make any attempt to manipulate or falsify your Usage Information. If you do not want us to collect your Usage Information, please do not download or install the App.
+ 
+            B.         Use of Non-Personally-Identifying Information.
+ 
+We analyze Non–Personally–Identifying Information (such as Usage Information) gathered from users of this App to help us better understand how this App is being used.  By identifying patterns and trends in usage, we are able to better design this App to improve your experiences, both in terms of content and ease of use.  We may link Non-Personally-Identifying Information to Personally-Identifying Information.
+ 
+            C.         Disclosure of Non-Personally-Identifying Information.
+ 
+From time to time, we may also release the Non–Personally–Identifying Information gathered from App users in the aggregate, such as by publishing a report on trends in the usage of this App.  We will not publish Personally-Identifying Information in connection with such reports.
+ 
+6.         Collection and Use of Information by Third Parties.
+ 
+This App may utilize social networking or “share functionality” or may contain links to third party sites that are not owned or controlled by us.  We have no control over, and assume no responsibility for, any share functionality or the content, privacy policies, or practices of any third parties, including without limitation Google, Inc.  These third parties’ privacy policies (not this Privacy Policy) govern their collection, use and disclosure of your Personally-Identifying Information.  You are subject to the policies of those third parties where applicable.  By using this App, you expressly relieve us from any and all liability arising from your use of any share functionality or third-party site accessed from Musubi.  We encourage you to review these third parties’ privacy policies and other legal documents before you disclose your Personally-Identifying Information to them.
+
+7.         Security.
+The content you create or submit through Musubi may be stored locally on your device.  You should take steps to secure your mobile device including without limitation setting a security password.  Furthermore, you may transmit content you create or submit through Musubi to third parties via wireless or wired networks.  Stanford does not control your transmission of content via Musubi over wireless and wired networks, and your wireless and wired networks may not be inherently secure.  
+8.         Privacy Policy Changes.
+
+Because of changes in technology and the growth and development of our business, or for other business reasons, we may need to modify this Privacy Policy from time to time.  We will alert you by posting a copy of the new policy with its effective date on our site located at:  http://mobisocial.stanford.edu/musubi/privacypolicy.html.  We will also display the new privacy policy on the app the next time you open it and will ask you to click to accept any material changes to this Privacy Policy before you may continue to use Musubi.  If you do not click to accept the revised privacy policy when we ask you to do so, you may not continue to use Musubi. 

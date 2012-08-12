@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:gravity="top"
+	      android:id="@+id/contact_frame"
+	      android:paddingBottom="1dip"
+	      >
+
+  <LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+	<LinearLayout android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    
+	    <ImageView
+		android:id="@+id/icon"
+		android:layout_width="50dip"
+		android:layout_height="50dip"
+		android:layout_marginRight="4dip"
+		android:layout_marginLeft="4dip"
+		android:layout_marginTop="4dip"
+		android:background="@drawable/frame_gallery_thumb"
+		android:scaleType="centerCrop"/>
+	    
+	    <TextView
+	        android:id="@+id/add_contact"
+	        android:text="+Add"
+            android:layout_marginLeft="10dip"
+	        android:layout_width="60dip"
+	        android:layout_height="30dip"
+	        android:textSize="14dip"
+            android:layout_centerHorizontal="true"
+	        android:visibility="gone"
+	        />	    
+	    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical">
+    
+	<TextView
+	  android:id="@+id/name_text"
+	  android:text="..."
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:gravity="left|top"
+	  android:textStyle="bold"
+	  android:layout_marginLeft="6dip"
+	  />
+  
+	  <TextView android:id="@+id/error_text"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:text="Error rendering this content"
+	      android:textStyle="italic"
+	      android:visibility="gone" />
+      <LinearLayout android:id="@+id/object_content"
+            android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="6dip"
+		    android:layout_marginTop="0dip"
+		    android:layout_marginRight="30dip"
+		    android:gravity="left|top"
+		    />
+
+      <TextView
+	  android:id="@+id/time_text"
+	  android:text="..."
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:gravity="left|top"
+	  android:textColor="#999999"
+	  android:textSize="6pt"
+	  android:layout_marginTop="4dip"
+	  android:layout_marginLeft="6dip"
+	  />
+      
+    </LinearLayout>
+  </LinearLayout>
+  
+  <RelativeLayout
+    android:id="@+id/pendants"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+	android:layout_alignParentTop="true"
+	android:layout_marginTop="0dip"
+	android:layout_marginRight="0dip">
+   <ImageView 
+   android:id="@+id/sending_icon"
+    android:visibility="gone"
+    android:layout_width="30dip"
+    android:layout_height="30dip"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/ic_action_refresh"
+    android:gravity="right"
+    android:paddingTop="4dip"
+    android:paddingBottom="2dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+   android:scaleType="fitCenter"/>
+  <ImageView 
+    android:id="@+id/obj_attachments_icon"
+    android:layout_width="25dip"
+    android:layout_height="25dip"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:paddingTop="2dip"
+    android:paddingRight="2dip"
+    
+    android:src="@drawable/ic_menu_love"
+  /> 
+  <TextView 
+  	android:id="@+id/obj_attachments"
+  	android:layout_width="50dip"
+  	android:layout_height="wrap_content"
+  	android:layout_below="@+id/obj_attachments_icon"
+  	android:layout_alignParentRight="true"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:gravity="right"
+    android:paddingRight="5dip"
+    />
+    </RelativeLayout>
+</RelativeLayout>
+

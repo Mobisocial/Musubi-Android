@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="image" />
+    <item type="id" name="position" />
+    <item type="id" name="header_view" />
+    <item type="id" name="object_entry" />
+    <item type="id" name="holder" />
+    <item type="id" name="status" />
+    <item type="id" name="submit" />
+</resources>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/settings_item_feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/focusable_background"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/feedback_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:src="@drawable/ic_text_holo_light" />
+
+            <TextView
+                android:id="@+id/feedback_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:text="Send Feedback"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sdcard_section"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="5dip" >
+
+            <TextView
+                android:id="@+id/sdcard_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="SD Card"
+                android:textAppearance="?android:attr/textAppearanceLarge" >
+            </TextView>
+
+            <Button
+                android:id="@+id/sdcard_backup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Backup" />
+
+            <Button
+                android:id="@+id/sdcard_restore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Restore" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/sdcard_section"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="5dip" >
+            <TextView
+                android:id="@+id/free_up_space"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Clear old messages"
+                android:textAppearance="?android:attr/textAppearanceLarge" >
+            </TextView>
+        </LinearLayout>
+
+        <CheckedTextView
+            android:id="@+id/share_apps"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="5dip"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:text="Share apps with friends"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckedTextView
+            android:id="@+id/global_tv_mode"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="5dip"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="false"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:text="Global TV Mode"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckedTextView
+            android:id="@+id/wifi_fingerprinting_mode"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dip"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="false"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Use wifi to see nearby friends"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/vacuum_database"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="5dip"
+            android:text="Vacuum Database"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:id="@+id/settings_item_ringtone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/focusable_background"
+            android:focusable="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/set_ringtone"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_margin="5dip"
+                android:gravity="center_vertical"
+                android:text="Set Ringtone"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <CheckedTextView
+            android:id="@+id/vibrating"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="5dip"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:text="Vibrate on new messages"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckedTextView
+            android:id="@+id/share_contact"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="5dip"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:text="Share identity with friends"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckedTextView
+                android:id="@+id/report_stats"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_margin="5dip"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:text="Anonymous statistics"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/anon_stats_example"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dip"
+                    android:text="What&apos;s collected?" />
+
+                <Button
+                    android:id="@+id/usage_agreements"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dip"
+                    android:text="Agreements" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settings_item_protection"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/focusable_background"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/protected_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dip"
+                android:src="@drawable/protected_icon" />
+
+            <TextView
+                android:id="@+id/protected_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:text="Privacy Protection"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/set_devmode"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_margin="5dip"
+            android:text="" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:orientation="vertical"
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:gravity="left"
+	      >
+      <!-- <TextView
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:gravity="left"
+       android:textSize="18dp"
+       android:text="Conversation Icon" 
+       /> -->
+	<ImageView android:id="@+id/icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:onClick="onClickIcon"
+        android:layout_gravity="center_horizontal">
+   </ImageView>
+   <!-- <TextView
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:gravity="left"
+       android:textSize="18dp"
+       android:text="Conversation Title" 
+       /> -->
+   <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:gravity="center_horizontal"
+          >
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content" 
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:textSize="18dp"
+               android:text="Title: " 
+               />
+           <EditText 
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           android:id="@+id/feed_title_edittext"
+	           android:textSize="14dp"
+	           android:maxLines="1"
+	           android:ellipsize="end"
+	           />
+		   
+	   </LinearLayout>
+	   <LinearLayout android:orientation="horizontal" 
+	       android:layout_height="wrap_content"
+	       android:layout_width="fill_parent"
+	       android:gravity="center_horizontal">
+	   <TextView
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:id="@id/submit"
+	       android:gravity="center"
+	       android:textSize="18dp"
+	       android:textColor="#0000FF"
+	       android:text="[Save]" 
+	       android:onClick="onClickSave"
+	       android:clickable="true"
+	       android:layout_marginRight="8dp"
+	       />
+	   <TextView
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:id="@+id/cancel"
+	       android:gravity="center"
+	       android:textSize="18dp"
+	       android:textColor="#0000FF"
+	       android:text="[Cancel]" 
+	       android:onClick="onClickCancel"
+	       android:clickable="true"
+	       />
+	   </LinearLayout>
+   </LinearLayout>
+   <TextView
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:gravity="left"
+       android:textSize="18dp"
+       android:text="Nearby" 
+       android:layout_marginTop="15dp"
+       />
+   <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:gravity="center_horizontal"
+          >
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+		       android:layout_width="wrap_content" 
+		       android:layout_height="wrap_content"
+		       android:gravity="left"
+		       android:textSize="18dp"
+		       android:text="Password: " 
+		       />
+           <EditText 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/broadcast_password"
+           android:textSize="14dp"
+           android:hint="Leave empty for no password"
+           android:maxLines="1"
+           android:ellipsize="end"
+           />
+       </LinearLayout>
+	   
+	   <TextView
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:id="@+id/broadcast_nearby"
+	       android:gravity="center"
+	       android:textSize="18dp"
+	       android:textColor="#0000FF"
+	       android:text="[Broadcast]" 
+	       android:onClick="onClickBroadcast"
+	       android:clickable="true"
+	       />
+   </LinearLayout>
+   <TextView
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:gravity="left"
+       android:textSize="18dp"
+       android:text="Conversation Members" 
+       />
+   <TextView
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content"
+           android:id="@id/submit"
+           android:gravity="center_horizontal"
+           android:textSize="18dp"
+           android:textColor="#0000FF"
+           android:text="[Add New Members]" 
+           android:onClick="onClickAddMembers"
+           android:clickable="true"
+           />
+</LinearLayout>

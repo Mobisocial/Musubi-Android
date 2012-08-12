@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:layout_width="fill_parent"
+	      android:layout_height="?android:attr/listPreferredItemHeight"
+	      android:paddingLeft="6dip">
+  <ImageView
+      android:id="@+id/icon"
+      android:layout_width="50dip"
+      android:layout_height="50dip"
+      android:layout_marginRight="6dip"
+      android:src="@drawable/ic_contact_picture" 
+      android:scaleType="fitCenter"
+      />
+  
+  <LinearLayout android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="50dip" android:orientation="vertical">
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/detail_text"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        />
+  </LinearLayout>
+	      
+    
+</LinearLayout>
